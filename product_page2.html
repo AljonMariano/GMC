@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>G.M.C Trading | Activated Carbon</title>
+
+    <!--Ion Icons-->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aldrich&display=swap"
+      rel="stylesheet"
+    />
+    <!--Our own stylesheet-->
+    <link rel="stylesheet" href="./assets/css/product_1.css" />
+  </head>
+
+  <body>
+<!--HEADER-->
+<header>
+  <div class="container">
+    <nav>
+      <div class="nav-brand">
+        <a href="index.html">
+          <img src="./assets/images/logo.png" alt="company logo" />
+          <h1>G.M.C Trading</h1>
+        </a>
+      </div>
+      <div class="menu-icons open">
+        <i class="icon ion-md-menu"></i>
+      </div>
+      <ul class="nav-list">
+        <div class="menu-icons close">
+          <i class="icon ion-md-close"></i>
+        </div>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#About Us" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#products" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#contact" class="nav-link">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!--END HEADER-->
+
+
+    <section class="image-section" id="about">
+      <div class="image-container">
+        <img src="./assets/images/Head.jpg" alt="kenon" />
+        <div class="overlay-text">
+          <h1>Welcome to G.M.C Trading Website</h1>
+          <p>Your Trusted Partner in Chemical Solutions</p>
+        </div>
+      </div>
+    </section>
+
+    <!--SECTION-->
+
+    <!--Products-->
+    <main id="product">
+      <div class="container">
+        <div class="product">
+          <!-- Product images -->
+          <div class="product-images">
+            <div class="product-img">
+              <!-- Preview image -->
+              <div class="preview-container">
+                <img
+                  src="./assets/images/products/Activated carbon.png"
+                  alt="sodium cyanide"
+                  class="preview-image"
+                  id="preview-image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Product gallery container -->
+          <div class="product-gallery-container">
+            <!-- Product gallery -->
+            <div class="product-gallery">
+              <div class="buttons-container">
+                <button class="prev" onclick="prevImage()">❮</button>
+                <button class="next" onclick="nextImage()">❯</button>
+              </div>
+              <div class="img_small">
+                <img src="./assets/images/products/carbon1.png" alt="carbon" class="gallery-image">
+                <img src="./assets/images/products/carbon2.png" alt="carbon" class="gallery-image">
+                <img src="./assets/images/products/carbon3.png" alt="carbon" class="gallery-image">
+                <img src="./assets/images/products/Activated carbon.png" alt="carbon" class="gallery-image">
+              </div>
+            </div>
+          </div>
+            
+              
+            
+
+          <!-- Product details -->
+          <div class="product-details-container">
+            <div class="product-details">
+              <h2 class="product-title">Activated Carbon</h2>
+              <p class="manufacturer">Manufacturer: China</p>
+              <div class="product_desc">
+                <h3>Chemical Description</h3>
+                <p>
+                  Activated carbon, also known as activated charcoal, is a highly porous 
+                  form of carbon with a large surface area, making it an excellent adsorbent 
+                  material. It is produced by heating carbon-rich materials, such as wood, 
+                  coal, or coconut shells, at high temperatures in the absence of oxygen, 
+                  which creates a network of tiny pores and increases its surface area.
+                </p>
+                <br>
+                <p>
+                  Activated carbon is widely used across various industries for its exceptional 
+                  adsorption properties. Its porous structure enables it to effectively capture 
+                  and remove impurities, contaminants, and pollutants from gases, liquids, and 
+                  solutions. This makes activated carbon a crucial component in water purification, 
+                  air and gas filtration, chemical processing, and environmental remediation efforts.
+                </p>
+                <br>
+                <p>
+                  In the mining industry specifically, activated carbon plays a vital role in the extraction of gold 
+                  and other precious metals from cyanide solutions through a process known as carbon-in-pulp (CIP) or carbon-in-leach (CIL). 
+                </p>
+                <br>
+                <p>
+                  In this process, activated carbon is used to adsorb the gold cyanide complex from the solution, allowing for efficient gold recovery.
+                  Overall, activated carbon is prized for its versatility, efficiency, and ability to purify a wide range of substances, making it 
+                  indispensable in various industrial and environmental applications.
+                </p>
+              </div>
+
+              <div class="price">
+                <strong>Price:</strong>
+                <p class="normal_price">PHP 0000.0000</p>
+              </div>
+              <a href="#contacts"
+                ><button class="add_to_cart_btn">Inquire</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <!--END SECTION-->
+
+    <!-- Modal container -->
+    <div id="modal" class="modal">
+      <span class="close">&times;</span>
+      <img
+        src="#"
+        alt="enlarged image"
+        class="modal-content"
+        id="enlarged-image"
+      />
+    </div>
+
+    <!--Contact Us-->
+    <section class="contact" id="contactus">
+      <div class="container">
+        <h2 class="section-title contactus-title">Contact Us</h2>
+        <div class="two-columns-grid">
+          <div class="container-fluid">
+            <form class="form-group-contact" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000" action="mailto:GMC@gmail.com" method="post">
+              <input type="text" id="name" class="input-contact" placeholder="Your Name*" required/>
+              <input type="email" id="email" class="input-contact" placeholder="E-mail Address*" required/>
+              <textarea type="text" id="Message" class="input-contact message" placeholder="Message"></textarea>
+              <div class="btn btn-contact-container">
+                <input href="#contactus" type="SUBMIT" value="SUBMIT" class="btn btn-submit">
+              </div> <!-- Added missing closing tag -->
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="contact" class="footer-visible">
+      <div class="container">
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Located at: Millsite, Camp 6, Kennon Road, Tuba, Benguet</p>
+            <p>Email: <p>Email: gmcmineraltraderscorp@gmail.com</p></p>
+            <p>
+              Phone: 09156765345 /
+              <br />
+              09995427352 /
+              <br />
+              09560959785
+            </p>
+          </div>
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <p>
+              G.M.C. Trading specializes in the sale of chemicals, with a focus on cyanide and activated carbon tailored 
+              for the mining industry. As a trusted supplier, we provide high-quality chemicals essential for mining 
+              operations worldwide. With a commitment to reliability and safety, G.M.C. Trading ensures that mining 
+              ventures have access to vital resources for their processes, fostering sustainable and efficient practices in the industry.
+              </p>
+          </div>
+        </div>
+        <br />
+        <p>&copy; 2024 G.M.C. All rights reserved.</p>
+      </div>
+    </footer>
+    <!--END SECTION-->
+
+    <script type="text/javascript" src="./assets/js/product_page1.js"></script>
+  </body>
+</html>
